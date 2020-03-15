@@ -50,7 +50,7 @@ public class ghfhg {
             System.out.println("该文件不存在");
         }else{;
         try (FileReader reader = new FileReader(pathname);
-             BufferedReader br = new BufferedReader(reader) // 建立一个对象，它把文件内容转成计算机能读懂的语言
+             BufferedReader br = new BufferedReader(reader)
         ) {
             String line;
             while ((line = br.readLine()) != null) {if(line.isEmpty()){row++;}
